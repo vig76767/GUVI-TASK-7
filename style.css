@@ -1,0 +1,64 @@
+sup{
+    color: red;
+}
+input{
+    width: 25%;
+    font-size: 25px;
+    
+} 
+#mail{
+    width: 51%;
+}
+span{
+    padding-right: 370px;
+}
+.rating {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    display: inline-flex;
+    font-size: 2rem;
+  }
+
+  .rating input {
+    display: none;
+  }
+
+  .rating label {
+    color:goldenrod;
+    cursor: pointer;
+  }
+
+  .rating input:checked ~ label,
+  .rating label:hover,
+  .rating label:hover ~ label {
+    color: gold;
+  }
+
+  table{
+    width: 100%;
+    border: width 10px; ;
+    /* margin: auto; */
+    border-collapse: collapse;
+    
+  }
+  td{
+    width: 10%;
+    text-align: center;
+  }
+  .left-side{
+    text-align: left;
+  }
+
+  .differentcolor{
+    background-color: gainsboro;
+  }
+
+  #Submit{
+        background-color: rgb(222, 222, 222);
+        width: 10%;
+        color: gray;
+        border: 0px;
+        height: 10%;
+  }
+
+
